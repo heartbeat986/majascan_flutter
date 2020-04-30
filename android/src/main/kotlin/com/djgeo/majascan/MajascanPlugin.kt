@@ -25,7 +25,7 @@ class MajascanPlugin(activity: Activity) : MethodCallHandler, PluginRegistry.Act
         }
 
         const val SCANRESULT = "scan"
-        const val Request_Scan = 1
+        const val Request_Scan = 1000
     }
 
     private var activity: Activity? = activity
